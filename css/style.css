@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "intro form";
+}
+
+.introduction {
+    grid-area: intro;
+    color: white;
+    padding: 14vh;
+}
+
+.form {
+    grid-area: form;
+    padding: 14vh;
+}
+
+.try-it {
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 3vh 1vh 3vh 1vh;
+    margin-bottom: 3vh;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.try-it span {
+    font-weight: 600;
+}
+
+form {
+    background: white;
+    border-radius: 8px;
+    padding: 2vw;
+}
+
+form > input {
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 3vh;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    transition: .2s;
+}
+
+form > input:focus {
+    outline: none !important;
+    border: 1px solid black;
+    transition: .2s;
+}
+
+form > input::placeholder {
+    padding-left: 1vw;
+}
+
+form > button {
+    width: 100%;
+    height: 8vh;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1vh;
+}
+
+.sub-text {
+    font-weight: 400;
+    font-size: x-small;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+}
+
+.sub-text span {
+    font-weight: 600;
+    color:  hsl(0, 100%, 74%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
