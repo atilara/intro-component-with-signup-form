@@ -6,6 +6,7 @@
     font-family: Poppins, sans-serif;
 }
 
+
 body {
     background-image: url(../images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
@@ -37,6 +38,7 @@ body {
     margin-bottom: 3vh;
     font-weight: 400;
     font-size: .8rem;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .try-it span {
@@ -47,6 +49,7 @@ form {
     background: white;
     border-radius: 8px;
     padding: 2vw;
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 form > input {
@@ -73,6 +76,7 @@ form > button {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 1vh;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 .sub-text {
