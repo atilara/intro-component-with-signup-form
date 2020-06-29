@@ -29,7 +29,7 @@ Mobile version, where I'm mostly improving my skills on responsive websites.
 
 ## 🛠 Deploy
 
-This simple website is being deployed using [Vercel](https://vercel.com). On this [link](https://https://intro-component-with-signup-form.atilara.vercel.app)
+This simple website is being deployed using [Vercel](https://vercel.com). On this [link](https://intro-component-with-signup-form.atilara.vercel.app)
 
 ## 📄 License
 
